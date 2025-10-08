@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: checkout
+  namespace: experiments
+  title: Checkout System
+  description: A checkout system for processing customer orders and payments
+spec:
+  owner: experiment-team-alpha
+  domain: ecommerce
+  manager: ferko.alpha

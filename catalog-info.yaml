@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: experimental-systems
+  description: A collection of experimental systems
+spec:
+  targets:
+    - ./systems/*.yaml

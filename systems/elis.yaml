@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: elis
+  namespace: experiments
+  title: ELIS System
+  description: A monolith that should be decomposed into microservices
+spec:
+  owner: experiment-team-platform
+  domain: ecommerce
+  manager: jozko.platformak

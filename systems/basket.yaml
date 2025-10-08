@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: basket
+  namespace: experiments
+  title: Basket System
+  description: A basket system for managing customer shopping carts
+spec:
+  owner: experiment-team-bravo
+  domain: ecommerce
+  manager: karol.bravo
