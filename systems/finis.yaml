@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: finis
+  namespace: experiments
+  title: FinIS System
+  description: FinIS system for comprehensive financial information management
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: jozko.financak
+  useApisFromSystems:
+    - bonus-portal
+    - e-filling
+    - sheu
+    - purchase
+    - pricing
+    - availability
+    - saf-t
+    - e-invoicing
+    - ledger

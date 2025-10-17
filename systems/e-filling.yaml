@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: e-filling
+  namespace: experiments
+  title: e-filling System
+  description: e-filling system
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak
+  useApisFromSystems:
+    - finis

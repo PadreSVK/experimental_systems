@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: e-invoicing
+  namespace: experiments
+  title: e-invoicing System
+  description: e-invoicing system
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak

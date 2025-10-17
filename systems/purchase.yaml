@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: purchase
+  namespace: experiments
+  title: Purchase System
+  description: Purchase system for handling purchase transactions
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: jozko.financak
+  useApisFromSystems:
+    - finis

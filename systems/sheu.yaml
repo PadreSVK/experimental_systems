@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: sheu
+  namespace: experiments
+  title: SHEU System
+  description: SHEU system for financial processing
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak
+  useApisFromSystems:
+    - pricing
+    - finis
+    - ro-e-transport

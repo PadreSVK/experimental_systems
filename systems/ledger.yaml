@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ledger
+  namespace: experiments
+  title: Ledger System
+  description: Ledger system
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak
+  useApisFromSystems:
+    - finis

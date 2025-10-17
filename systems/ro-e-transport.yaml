@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ro-e-transport
+  namespace: experiments
+  title: RO e-transport System
+  description: RO e-transport system
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: pricing
+  namespace: experiments
+  title: Pricing System
+  description: Pricing system for managing product and service pricing
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak

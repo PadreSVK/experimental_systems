@@ -9,3 +9,7 @@ spec:
   owner: experiment-team-platform
   domain: ecommerce
   manager: jozko.platformak
+  useApisFromSystems:
+    - finis
+    - bonus-portal
+    - ledger

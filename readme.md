@@ -38,6 +38,195 @@ all backstage entities will be in namespace `experiments`, for all references us
   * owner: experiment-team-platform
   * domain: ecommerce
   * manager: jozko.platformak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis # compliant, external cost (VPN), branch supply, not pickup orders, invoicing&crediting from orders
+    - bonus-portal # product and brand information
+    - ledger # order data  for pairing and cash register closures, pre payments
+```
+
+* **purchase**
+  * name: purchase
+  * namespace: experiments
+  * title: purchase System
+  * description: purchase system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: jozko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis # documents
+```
+
+* **artemis**
+  * name: artemis
+  * namespace: experiments
+  * title: artemis System
+  * description: artemis system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis # user department employee hierarchy
+```
+
+* **pricing**
+  * name: pricing
+  * namespace: experiments
+  * title: pricing System
+  * description: pricing system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+
+* **RO e-transport**
+  * name: ro-e-transport
+  * namespace: experiments
+  * title: RO e-transport System
+  * description: RO e-transport system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+
+* **e-filling**
+  * name: e-filling
+  * namespace: experiments
+  * title: e-filling System
+  * description: e-filling system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis # document request
+```
+
+* **bonus-portal**
+  * name: e-filling
+  * namespace: experiments
+  * title: e-filling System
+  * description: e-filling system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis # documents
+```
+
+* **sheu**
+  * name: sheu
+  * namespace: experiments
+  * title: sheu System
+  * description: sheu system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - pricing # XX prices
+    - finis # document + prices
+    - ro-e-transport # XX prices
+```
+
+* **availability**
+  * name: availability
+  * namespace: experiments
+  * title: availability System
+  * description: availability system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+
+* **saf-t**
+  * name: saf-t
+  * namespace: experiments
+  * title: saf-t System
+  * description: saf-t system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+
+* **e-invoicing**
+  * name: e-invoicing
+  * namespace: experiments
+  * title: e-invoicing System
+  * description: e-invoicing system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+
+* **exchange-rates**
+  * name: exchange-rates
+  * namespace: experiments
+  * title: exchange-rates System
+  * description: exchange-rates system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis #...
+```
+
+* **catalog**
+  * name: catalog
+  * namespace: experiments
+  * title: catalog System
+  * description: catalog system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis # product infromation
+```
+
+
+* **ledger**
+  * name: ledger
+  * namespace: experiments
+  * title: ledger System
+  * description: ledger system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: ferko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - finis # payments
+```
+
+* **FinIS**
+  * name: finis
+  * namespace: experiments
+  * title: FinIS System
+  * description: FinIS system
+  * owner: experiment-finance-alpha
+  * domain: finance
+  * manager: jozko.financak
+```yaml
+spec:
+    useApisFromSystems: 
+    - bonus-portal # documents
+    - e-filling # documents
+    - sheu # document + prices
+    - purchase # document & companies
+    - pricing #stock document prices
+    - availability # stock amount
+    - saf-t # documents, customers, payments
+    - e-invoicing # documents
+    - ledger # documents
+```
 
 ## Structure
 

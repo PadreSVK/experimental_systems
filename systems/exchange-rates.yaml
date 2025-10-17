@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: exchange-rates
+  namespace: experiments
+  title: Exchange Rates System
+  description: Exchange rates system
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak
+  useApisFromSystems:
+    - finis

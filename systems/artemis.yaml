@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: artemis
+  namespace: experiments
+  title: Artemis System
+  description: Artemis system for financial operations
+spec:
+  owner: experiment-finance-alpha
+  domain: finance
+  manager: ferko.financak
+  useApisFromSystems:
+    - finis
